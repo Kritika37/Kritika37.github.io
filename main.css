@@ -199,7 +199,7 @@ transform: rotate(-45deg);
 }
 
 .landing-text h1{
-	font-size: 20rem;
+	font-size: 10rem;
 	font-family: 'The Historia Demo',sans-serif;
 	background: linear-gradient(to top,#33ccff,#ffffff 67%);
 	-webkit-background-clip: text;
