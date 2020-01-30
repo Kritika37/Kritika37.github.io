@@ -206,9 +206,7 @@ transform: rotate(-45deg);
 	-webkit-text-fill-color: transparent;
 	padding: 1rem;
 	user-select: none;
-	animation: type 3s steps(13);
-	overflow: hidden;
-	white-space: nowrap;
+	
 
 }
 
@@ -573,11 +571,3 @@ left: -5.9rem;
 
 }
 
-@keyframes type{
-	0%{
-		width: 0ch;
-	}
-	100%{
-		width: 13ch;
-	}
-}
