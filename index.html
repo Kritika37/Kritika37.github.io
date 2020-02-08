@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <div class="spinner-wrapper">
+<div class="spinner"></div>
+</div>
     <header>
     	<div class="menu-toggler">
     		<div class="bar half start"></div>
@@ -38,6 +41,7 @@
     	<h1>Kritika Sagar</h1>
     	<h6>CSE Undergraduate</h6>
     </div>
+</div>
     </header>
     <section class="About" id="About" >
     	<div class="container">
@@ -209,5 +213,17 @@
   AOS.init();
     </script>
     <script src="main.js"></script>
+
+    <script>
+    $(document).ready(function() {
+    //Preloader
+    preloaderFadeOutTime = 4000;
+    function hidePreloader() {
+    var preloader = $('.spinner-wrapper');
+    preloader.fadeOut(preloaderFadeOutTime);
+    }
+    hidePreloader();
+    });
+    </script>
 </body>
 </html>
